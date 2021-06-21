@@ -9,10 +9,12 @@ import android.view.View
 import android.view.ViewPropertyAnimator
 import android.widget.FrameLayout
 import android.widget.ImageView
+import android.widget.SeekBar
 
 class MainActivity : AppCompatActivity() {
 //    private lateinit var imageView: ImageView
 //    private lateinit var frameLayout: FrameLayout
+
     @SuppressLint("ClickableViewAccessibility")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
