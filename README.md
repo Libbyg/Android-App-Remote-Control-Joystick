@@ -33,6 +33,9 @@ __*Special feature:*__
 __*View Model*__
 
 View Model takes the data entered by user - IP address and connection port - via event listeners and by using data binding.
+The data binding to view model is made by different event listeners, that are listenning to all user's actions.
+Event listeners proccess the data and send appropriate commands to the Model.
+
 
 ![](/app/Images/ViewModel.jpg)
 
