@@ -3,6 +3,10 @@
 ## Introduction
 An android app to remotely control the FlightGear simulator.
 
+__Important note__:
+1. There's special features we describe later in this document.
+2.We attached a photo of the running app on real android phone (not the emulator).
+
 ## Video Link
 https://www.youtube.com/watch?v=g2ul0twrpsU
 
