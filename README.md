@@ -27,7 +27,7 @@ The MainActivity contains:
 * JoystickView.
 To enable data binding we configured this option in the build.gradle(app).
 
-__*Special feature:*__
+__*Special features:*__
 1. Each time the joystick is freed after finger touch it turns back to its initial location - to the center of the screen.
 2. In the JoystickApp we're using a logger named Timber. If the user enters a wrong input in the ip address field or in the port field we'll know the exact error, where it occured and when.
  
