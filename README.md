@@ -7,19 +7,19 @@ An android app to remotely control the FlightGear simulator.
 https://www.youtube.com/watch?v=g2ul0twrpsU
 
 ## Explanation of folders and main files structure
-*Model*
+__*Model*__
 
 ![](/app/Images/Model.jpg)
 
-*View*
+__*View*__
 
 ![](/app/Images/VIEW.jpg)
 
-*View Model*
+__*View Model*__
 
 ![](/app/Images/ViewModel.jpg)
 
-*Resources*
+__*Resources*__
 
 ![](/app/Images/Resources.jpg)
 
