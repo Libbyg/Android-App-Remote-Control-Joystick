@@ -28,8 +28,8 @@ The MainActivity contains:
 To enable data binding we configured this option in the build.gradle(app).
 
 __*Special features:*__
-1. Each time the joystick is freed after finger touch it turns back to its initial location - to the center of the screen.
-2. In the JoystickApp we're using a logger named Timber. If the user enters a wrong input in the ip address field or in the port field we'll know the exact error, where it occured and when.
+1. Each time the __joystick__ is freed after finger touch it __turns back to its initial location___ - to the center of the screen.
+2. In the JoystickApp we're using a logger named __Timber__. If the user enters a wrong input in the ip address field or in the port field we'll know the exact error, where it occured and when.
  
 ![](/app/Images/VIEW.jpg)
 
