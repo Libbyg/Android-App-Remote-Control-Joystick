@@ -12,6 +12,8 @@ __*Model*__
 * Communicates with the FlightGear server using telnet protocol.
 * Recieves commands from ViewModel and executes them.
 * The Model sends the commands to FlightGear simulator, and we see the airplane responds to these commands.
+* Commands sending is made by single threadpool.
+(Single threadpool creates single thread to execute all tasks. We use it when we've only one kind of a task to execute.)
 
 ![](/app/Images/Model.jpg)
 
