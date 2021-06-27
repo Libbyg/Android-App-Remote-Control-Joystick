@@ -11,6 +11,7 @@ __*Model*__
 
 * Communicates with the FlightGear server using telnet protocol.
 * Recieves commands from ViewModel and executes them.
+* The Model sends the commands to FlightGear simulator, and we see the airplane responds to these commands.
 
 ![](/app/Images/Model.jpg)
 
