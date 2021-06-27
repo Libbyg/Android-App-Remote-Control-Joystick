@@ -40,12 +40,12 @@ __*Resources*__
 
 ![](/app/Images/Resources.jpg)
 
-## Explanation of each folder
-
-## UML - according to MVVM architecture
+## UML diagram - according to MVVM architecture
 ![](/app/Images/UML.png)
 
 ## Preinstallation for Developer
+* FlightGear applicaion. Can be downloaded from here: *https://www.flightgear.org/download/*
+* IDE for android app development. We used Android Studio. Can be downloaded from here: *https://developer.android.com/studio*
 
-## Quickstart: Installations Instructions And Running
+## Quickstart: Installations Instructions And First APP Running
 
