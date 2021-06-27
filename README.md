@@ -51,7 +51,7 @@ __*Resources*__
 1. Open FlightGear app after dowloading it (link attached above).
 2. Go to `Settings` > `Additional Settings` > enter these in the text box: `--telnet=socket,in,10,127.0.0.1,6400,tcp`
 3. Click on `Fly!`.
-4. Clone the project from GitHub to your pc
+4. Clone the project from GitHub to your computer.
 5. Open the project in the IDE (Android Studio) and click on 'run'.
 6. Run the emulator (or by connecting your phone with usb cable explanation follows).
 7. Open `Joystick` app.
