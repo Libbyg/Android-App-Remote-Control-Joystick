@@ -44,6 +44,11 @@ Event listeners proccess the data and send appropriate commands to the Model.
 
 __*Resources*__
 
+* Joystick's basis is the joystick layout which uses the drawable circle. 
+* The image view converts the drawable circle to image element and we place it in the layout.
+* The default property of the joystick in the layout is defined that way: the "layout_gravity" set to "center".
+* This enables our first __special feature__ to happen.
+
 ![](/app/Images/Resources.jpg)
 
 ## UML diagram - according to MVVM architecture
