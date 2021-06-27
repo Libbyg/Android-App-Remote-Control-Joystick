@@ -64,7 +64,7 @@ __*Resources*__
 3. Click on `Fly!`.
 4. Clone the project from GitHub to your computer.
 5. Open the project in the IDE (Android Studio) and click on 'run'.
-6. Run the emulator (or by connecting your phone with usb cable explanation follows).
+6. Run the emulator.
 7. Open `Joystick` app.
 8. In the android app: 
   * Enter your local IP address and connection port - `6400`.
