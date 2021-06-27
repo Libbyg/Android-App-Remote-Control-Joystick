@@ -51,7 +51,7 @@ __*Resources*__
 
 ![](/app/Images/Resources.jpg)
 
-## UML diagram - according to MVVM architecture
+## UML Diagram - According To MVVM Architecture
 ![](/app/Images/UML.png)
 
 ## Preinstallation For Developer
