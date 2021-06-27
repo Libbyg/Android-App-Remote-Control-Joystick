@@ -4,7 +4,7 @@
 An android app to remotely control the FlightGear simulator.
 
 __Important note__:
-1. There's __special features__ we describe later in this document.
+1. There are __special features__ we describe later in this document.
 2. We attached a __photo__ of the running app on __real android phone__ (not the emulator).
 
 ## Video Link
