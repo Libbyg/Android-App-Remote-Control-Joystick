@@ -48,4 +48,18 @@ __*Resources*__
 * IDE for android app development. We used Android Studio. Can be downloaded from here: *https://developer.android.com/studio*
 
 ## Quickstart: Installations Instructions And First APP Running
-
+1. Open FlightGear app after dowloading it (link attached above).
+2. Go to `Settings` > `Additional Settings` > enter these in the text box: `--telnet=socket,in,10,127.0.0.1,6400,tcp`
+3. Click on `Fly!`.
+4. Clone the project from GitHub to your pc
+5. Open the project in the IDE (Android Studio) and click on 'run'.
+6. Run the emulator (or by connecting your phone with usb cable explanation follows).
+7. Open `Joystick` app.
+8. In the android app: 
+  * Enter your local IP address and connection port - `6400`.
+  * Click `connect` button.
+9. In the FlightGear simulator click on `Cessna C172P` and then click on `autostart`.
+10. Click `Shift`+`v` till you locate the screen in a convenient position so you can see the airplane properly to control it.
+11. Start to pull the `throttle` SeekBar button till maximum rate.
+12. When airplane starts to move regulate the `rudder` Seekbar and use the `joystick` to navigate.
+13. Enjoy your flight!
