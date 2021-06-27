@@ -24,11 +24,6 @@ class MainActivity : AppCompatActivity() {
         binding.setLifecycleOwner(this)
         binding.viewModel = viewModel
 
-//        val connectButton = findViewById<Button>(R.id.button)
-//        val address = findViewById<EditText>(R.id.editText1)
-//        val port = findViewById<EditText>(R.id.editText2)
-//        connectButton.setOnClickListener {
-//            viewModel.connect(address.text.toString(), port.text.toString().toInt())
-//        }
+
     }
 }

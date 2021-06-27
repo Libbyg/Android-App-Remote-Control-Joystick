@@ -40,7 +40,6 @@ class MainViewModel(private val model: FlightGearModel) : ViewModel() {
     }
 
     val joystickOnChangeListener = JoystickView.OnChangeListener{aileron: Float, elevator: Float ->
-//        Timber.d("aileron: ${aileron}, elevator: ${elevator}")
         var _aileron = aileron
         var _elevator = -elevator
         if(_aileron<-1){

@@ -11,10 +11,7 @@ class FlightGearConnection() {
     fun connect(address: String, port: Int){
         try{
             fg = Socket(address, port)
-//            if(fg != null){
-//                Timber.d(fg.toString())
             out = PrintWriter(fg!!.getOutputStream(),true)
-//            }
         } catch (t: Throwable) {
             Timber.d(t.message)
         }
