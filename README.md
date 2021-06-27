@@ -3,6 +3,7 @@
 ## Introduction
 
 ## Video Link
+https://www.youtube.com/watch?v=g2ul0twrpsU
 
 ## Explanation of folders and main files structure
 
