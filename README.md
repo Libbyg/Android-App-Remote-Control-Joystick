@@ -6,7 +6,7 @@ An android app to remotely control the FlightGear simulator.
 ## Video Link
 https://www.youtube.com/watch?v=g2ul0twrpsU
 
-## Explanation of folders and main files structure
+## Explanation Of Folders And Main Files Structure
 __*Model*__
 
 * Communicates with the FlightGear server using telnet protocol.
@@ -54,7 +54,7 @@ __*Resources*__
 ## UML diagram - according to MVVM architecture
 ![](/app/Images/UML.png)
 
-## Preinstallation for Developer
+## Preinstallation For Developer
 * FlightGear applicaion. Can be downloaded from here: *https://www.flightgear.org/download/*
 * IDE for android app development. We used Android Studio. Can be downloaded from here: *https://developer.android.com/studio*
 
