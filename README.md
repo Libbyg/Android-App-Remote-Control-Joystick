@@ -7,13 +7,16 @@ An android app to remotely control the FlightGear simulator.
 https://www.youtube.com/watch?v=g2ul0twrpsU
 
 ## Explanation Of Folders And Main Files Structure
+#### MVVM Architecture
 __*Model*__
 
 * Communicates with the FlightGear server using telnet protocol.
 * Recieves commands from ViewModel and executes them.
 * The Model sends the commands to FlightGear simulator, and we see the airplane responds to these commands.
 * Commands sending is made by single threadpool.
-(Single threadpool creates single thread to execute all tasks. We use it when we've only one kind of a task to execute.)
+* Single threadpool creates an executor that uses single thread worker operating off an unbounded queue
+(if this single thread terminates due to a failure during execution prior to shutdown, a new one will take its place if needed to execute subsequent tasks.)
+Tasks are guaranteed to execute sequentially, and no more than one task will be active at any given time.
 
 ![](/app/Images/Model.jpg)
 
