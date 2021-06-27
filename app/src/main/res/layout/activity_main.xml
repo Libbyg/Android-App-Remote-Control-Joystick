@@ -42,40 +42,73 @@
              />
 <!--        android:onClick="@{}"-->
 
-        <TextView
-            android:id="@+id/textView"
+        <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center_horizontal"
-            android:text="Throttle" />
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerInParent="true"
+                android:gravity="center_horizontal"
+                android:layout_marginBottom="8dp"
+                android:text="Throttle" />
 
-        <SeekBar
-            android:id="@+id/seekBar"
-            android:progress="@{viewModel.throttle}"
-            android:onProgressChanged="@{viewModel::setthrottle}"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            <SeekBar
+                android:id="@+id/seekBar"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerInParent="true"
+                android:onProgressChanged="@{viewModel::setthrottle}"
+                android:progress="@{viewModel.throttle}" />
 
-        <TextView
-            android:id="@+id/textView2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center_horizontal"
-            android:text="Rudder" />
+            <TextView
 
-        <SeekBar
-            android:id="@+id/seekBar2"
-            android:progress="@{viewModel.rudder}"
-            android:onProgressChanged="@{viewModel::setrudder}"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text=""
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                android:rotation="270"/>
 
-        <com.example.joystick.views.JoystickView
-            android:id="@+id/joystickView"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            app:onChangeListener="@{viewModel.joystickOnChangeListener}">
-        </com.example.joystick.views.JoystickView>
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:text="Rudder"
+                android:rotation="-90"
+                android:gravity="fill_vertical"/>
+
+            <FrameLayout
+                android:layout_width="32dp"
+                android:layout_height="180dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:orientation="vertical">
+
+                <SeekBar
+                    android:id="@+id/seekBar2"
+                    android:layout_width="180dp"
+                    android:layout_height="32dp"
+                    android:layout_gravity="center"
+                    android:onProgressChanged="@{viewModel::setrudder}"
+                    android:progress="@{viewModel.rudder}"
+                    android:rotation="-90" />
+
+            </FrameLayout>
+
+            <com.example.joystick.views.JoystickView
+                android:id="@+id/joystickView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:onChangeListener="@{viewModel.joystickOnChangeListener}">
+            </com.example.joystick.views.JoystickView>
+        </RelativeLayout>
 
     </LinearLayout>
 </layout>
