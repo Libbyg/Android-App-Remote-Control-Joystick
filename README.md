@@ -67,8 +67,8 @@ __*Resources*__
 3. Click on `Fly!`.
 4. Clone the project from GitHub to your computer.
 5. Open the project in the IDE (Android Studio) and click on 'run'.
-6. Run the emulator or use your phone
- for running the app from your phone: we'll need to configure the phone to use developers options.
+6. Run the emulator or use your phone.
+For running the app from your phone: we'll need to configure the phone to use developers options.
     * Go to Android 9 (API level 28) and higher: `Settings` > `About Phone` > `Build Number`
     * Tap 7 times 
     * Go to `Settings` > `System` > `Advanced` > `Developer Options` > `USB debugging`
