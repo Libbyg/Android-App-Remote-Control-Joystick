@@ -67,7 +67,13 @@ __*Resources*__
 3. Click on `Fly!`.
 4. Clone the project from GitHub to your computer.
 5. Open the project in the IDE (Android Studio) and click on 'run'.
-6. Run the emulator.
+6. Run the emulator or use your phone
+ for running the app from your phone: we'll need to configure the phone to use developers options.
+    * Go to Android 9 (API level 28) and higher: `Settings` > `About Phone` > `Build Number`
+    * Tap 7 times 
+    * Go to `Settings` > `System` > `Advanced` > `Developer Options` > `USB debugging`
+    * Connect the phone with usb cable to your computer.
+    * Run the program in the IDE.
 7. Open `Joystick` app.
 8. In the android app: 
   * Enter your local IP address and connection port - `6400`.
@@ -77,3 +83,7 @@ __*Resources*__
 11. Start to pull the `throttle` SeekBar button till maximum rate.
 12. When airplane starts to move regulate the `rudder` Seekbar and use the `joystick` to navigate.
 13. Enjoy your flight!
+
+Running the android app on the phone will look like this:
+
+![](/app/Images/Phone1.jpg)
